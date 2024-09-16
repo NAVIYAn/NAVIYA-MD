@@ -53,7 +53,7 @@ ${menu.search}
 
 > ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🍭✨
 `
-await conn.sendMessages(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
 
 
     
