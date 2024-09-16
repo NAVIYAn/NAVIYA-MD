@@ -53,7 +53,7 @@ ${menu.search}
 
 > ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🍭✨
 `
-await conn.sendMessage(from,{image:{url:"https://github.com/NAVIYAn/Pkya/commits/main/autosticker/cfc176a3-93e2-4ff8-929b-aab500d03448.jpg"},caption:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"[url=https://imgbb.com/][img]https://i.ibb.co/g9KYSKs/HD-wallpaper-joker-cool-thumbnail.jpg[/img][/url]"},caption:madeMenu},{quoted:mek})
 
 
     
