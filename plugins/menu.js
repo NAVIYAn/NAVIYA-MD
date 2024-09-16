@@ -52,9 +52,11 @@ ${menu.search}
 
 
 > ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🍭✨
-
 `
+await conn.sendMessages(from,{text:madeMenu},{quoted:mek})
 
+
+    
 }catch(e){
 console.log(e)
 reply(`${e}`)
