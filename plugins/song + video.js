@@ -17,17 +17,18 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*✨🍭
+◤ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ◥
 
-*ᴛɪᴛʟᴇ:* ${data.title}
+> ᴛɪᴛʟᴇ: ${data.title}
 
-*ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*: ${data.description}
 
-*ᴛɪᴍᴇ*: ${data.timestamp}
 
-*ᴀɢᴏ*: ${data.ago}
 
-*vɪᴇᴡꜱ*: ${data.views}
+> ➣ᴛɪᴍᴇ: ${data.timestamp}
+
+> ➣ᴀɢᴏ: ${data.ago}
+
+> ➣vɪᴇᴡꜱ: ${data.views}
 
 > ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
@@ -69,15 +70,20 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*ɴᴀᴠɪʏᴀ ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🌻❤️‍🩹
+*◤ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ◥*
 
-title: ${data.title}
-description: ${data.description }
-time: ${data.timestamp}
-ago: ${data.ago}
-views: ${data.views}
+> ᴛɪᴛʟᴇ: ${data.title}
 
-ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
+
+
+
+> ➣ᴛɪᴍᴇ: ${data.timestamp}
+
+> ➣ᴀɢᴏ: ${data.ago}
+
+> ➣vɪᴇᴡꜱ: ${data.views}
+
+> ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
