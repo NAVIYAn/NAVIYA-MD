@@ -19,15 +19,15 @@ const url = data.url
 let desc = `
 *ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*✨🍭
 
-*title:* ${data.title}
+*ᴛɪᴛʟᴇ:* ${data.title}
 
-*description*: ${data.description}
+*ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*: ${data.description}
 
-*time*: ${data.timestamp}
+*ᴛɪᴍᴇ*: ${data.timestamp}
 
-*ago*: ${data.ago}
+*ᴀɢᴏ*: ${data.ago}
 
-*views*: ${data.views}
+*vɪᴇᴡꜱ*: ${data.views}
 
 > ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
