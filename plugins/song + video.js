@@ -11,21 +11,25 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if (!q) return reply("depan hutto url ekkak 😒")
+if (!q) return reply("පුක සුදුද ලිමාෂා ඔයාගේ")
 const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*💗🥹
+*ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*✨🍭
 
-title: ${data.title}
-description: ${data.description }
-time: ${data.timestamp}
-ago: ${data.ago}
-views: ${data.views}
+*title:* ${data.title}
 
-ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
+*description*: ${data.description}
+
+*time*: ${data.timestamp}
+
+*ago*: ${data.ago}
+
+*views*: ${data.views}
+
+> ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
