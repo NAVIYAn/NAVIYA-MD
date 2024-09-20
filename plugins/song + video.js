@@ -24,7 +24,6 @@ let desc = `
 
 
 
-
 > ➣ᴛɪᴍᴇ: ${data.timestamp}
 
 > ➣ᴀɢᴏ: ${data.ago}
@@ -34,6 +33,7 @@ let desc = `
 > ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+
 
 //dawonload audio 
 
@@ -61,6 +61,7 @@ cmd({
     pattern: "video",
     desc: "download videos",
     category: "download",
+    react: "🎥",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -71,7 +72,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-*◤ɴᴀᴠɪʏᴀ ᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ◥*
+*◤ɴᴀᴠɪʏᴀ ᴍᴅ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ◥*
 
 > ᴛɪᴛʟᴇ: ${data.title}
 
@@ -87,6 +88,7 @@ let desc = `
 > ᴍᴀᴅᴇ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🖤
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+
 
 //dawonload video
 
