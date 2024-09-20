@@ -11,7 +11,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*👾 GHOST MD Repastitory Information*
+let dec = `*👾 NAVIYA MD Repastitory Information*
 
 *| ɴᴀᴍᴇ*: ɴᴀᴠɪʏᴀ-ᴍᴅ
 *| ᴏᴡɴᴇʀ*: ɴᴀᴠɪʏᴀ ( ɴᴀᴠɪʏᴀ-ᴍᴅ )
