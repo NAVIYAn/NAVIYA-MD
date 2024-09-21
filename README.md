@@ -1,42 +1,32 @@
-# NAVIYA-MD #
-<br>
- </p>
-    <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=WELCOME+TO+NAVIYA-MD;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY;DARCK NAVIYA MD" alt="Typing SVG" /></a>
+< align="center">Hi 👋, I'm NAVIYA-MD-V-2</h1>
+<h3 align="center">developed buy naviya</h3>
 
- 
-  
-<div align="center">
-</p
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=naviyan&label=Profile%20views&color=0e75b6&style=flat" alt="naviyan" /> </p>
 
-<hr>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=naviyan" alt="naviyan" /></a> </p>
 
-<hr>
+- 🔭 I’m currently working on [A MUlTIE DEVISE WHATSAPP BOT](https://github.com/NAVIYAn/NAVIYA-MD.git)
 
-<p align="center">
-  <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="GHOST-MD" height="300" src="https://telegra.ph/file/26fa981907598d22aa4e1.jpg">
+- 👯 I’m looking to collaborate on [1 ST STTEP A FROK THE BOT 👆](navidumd.vercel.app)
 
-   
- ![forks](https://github.com/Cyberghost352/GHOST-MD.git)
+- 🤝 I’m looking for help with [2 STEP A GET SESSION ID 👇](https://pair-web-public.koyeb.app/)
 
- ![stars](https://github.com/Cyberghost352/GHOST-MD.git)
+- 👨‍💻 All of my projects are available at [https://whatsapp.com/channel/0029VaeVPmI9cDDZhrnhhu0K](https://whatsapp.com/channel/0029VaeVPmI9cDDZhrnhhu0K)
 
+- 💬 Ask me about **ENJOY A NAVIYA MD BOT**
 
+- 📫 NAVIYA COTACT 🥷❤️‍🩹 **https://Wa.me/+94764038550?text=ʜᴇʏ_ɴᴀᴠɪʏᴀ_🥷❤️‍🩹_**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://dev.to/naviyan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="naviyan" height="30" width="40" /></a>
+</p>
 
 
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/SPECEL THANKS TO ME 😼"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="SPECEL THANKS TO ME 😼" /></a><a href="https://ko-fi.com/NAVIYA"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="NAVIYA" /></a></p><br><br>
 
-<a href="https://whatsapp.com/channel/0029VaeVPmI9cDDZhrnhhu0K"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%E2%80%8D%20Join%20Our%20WhatsApp%20Channel%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-green" alt="📎 Join Our WhatsApp Channel" width="300"></a>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=naviyan&" alt="naviyan" /></p>
 
 
-# 𝐆𝐇𝐎𝐒𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐍𝐔𝐌𝐁𝐄𝐑👇:
-<img src="https://telegra.ph/file/f8ced69143daac134f2d7.jpg" width=80 height=80></a>   
-- [**❯𝗡𝗔𝗩𝗜𝗬𝗔-𝐂𝐎𝐍𝐓𝐀𝐂𝐓-❮**](*https://Wa.me/+94764038550?text=ʜᴇʏ_ɴᴀᴠɪʏᴀ_🥷❤️‍🩹_*)
-
-- [**❯𝐆𝐇𝐎𝐒𝐓-𝐌𝐃 𝐖𝐄𝐁 𝐒𝐈𝐓𝐄❮**](https://RCD-GITHUB-REAL.github.io/Gost-md-web-new/)
-- 
-##  PAIRING CODE SCAN
-<a href="https://pair-web-public.koyeb.app/"><img src="https://pair-web-public.koyeb.app/" alt="LOGIN WITH PAIR CODE" width="250"></a>
-
-## Deploy.
- [![nima](https://img.shields.io/badge/ghostmd_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/GHOST-V1-MD/GHOST-MD)
