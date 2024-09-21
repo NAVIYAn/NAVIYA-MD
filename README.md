@@ -17,22 +17,21 @@
   <a href="https://youtu.be/WcA7GZuaN0A">
     <img alt="GHOST-MD" height="300" src="https://telegra.ph/file/26fa981907598d22aa4e1.jpg">
 
+   
+ ![forks](https://github.com/Cyberghost352/GHOST-MD.git)
 
-
-![https://github.com/NAVIYAn/navidumd/).
-
-
-![https://github.com/NAVIYAn/navidumd/).
-
+ ![stars](https://github.com/Cyberghost352/GHOST-MD.git)
 
 
 
-<a href="https://chat.whatsapp.com/DhCdan60qzH0yoIxmybU3i"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%E2%80%8D%20Join%20Our%20WhatsApp%20Channel%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-green" alt="📎 Join Our WhatsApp Channel" width="300"></a>
+
+
+<a href="https://whatsapp.com/channel/0029VaeVPmI9cDDZhrnhhu0K"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%E2%80%8D%20Join%20Our%20WhatsApp%20Channel%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-green" alt="📎 Join Our WhatsApp Channel" width="300"></a>
 
 
 # 𝐆𝐇𝐎𝐒𝐓 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐍𝐔𝐌𝐁𝐄𝐑👇:
 <img src="https://telegra.ph/file/f8ced69143daac134f2d7.jpg" width=80 height=80></a>   
-- [**❯𝐆𝐇𝐎𝐒𝐓-𝐂𝐎𝐍𝐓𝐀𝐂𝐓-𝐈𝐃❮**](https://wa.me/+94741140620?text=*❝𝙷𝙴𝚈◹𝙶𝙷𝙾𝚂𝚃✗𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁❞⛺*)
+- [**❯𝗡𝗔𝗩𝗜𝗬𝗔-𝐂𝐎𝐍𝐓𝐀𝐂𝐓-❮**](*https://Wa.me/+94764038550?text=ʜᴇʏ_ɴᴀᴠɪʏᴀ_🥷❤️‍🩹_*)
 
 - [**❯𝐆𝐇𝐎𝐒𝐓-𝐌𝐃 𝐖𝐄𝐁 𝐒𝐈𝐓𝐄❮**](https://RCD-GITHUB-REAL.github.io/Gost-md-web-new/)
 - 
