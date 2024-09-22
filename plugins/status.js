@@ -1,22 +1,5 @@
-import fs from 'fs';
-
-
-
-const handleGreeting = async (m, gss) => {
-
-  try {
 
     const textLower = m.body.toLowerCase();
-
-
-
-    const triggerWords = [
-
-      'save','send','dpm','dpn','oni','evanna','ewanna','evahan','ewahan','dapan','meka','mekath','evannako','ewannako','dahan','ewahan','dpam','ewa','eva','dapm','ewano','evano','ewno','ewnna','evnna','snd','ewana','evana','danna','dannako','dannko','dnnko','ewapam','evapam','evapan','ewaham','dako','sv', 'sav', 'seve'
-
-    ];
-
-
 
     if (triggerWords.includes(textLower)) {
 
