@@ -79,3 +79,10 @@ try{
 
             });
 
+
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
