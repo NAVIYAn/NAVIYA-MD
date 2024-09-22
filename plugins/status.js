@@ -75,14 +75,18 @@ try{
 
                 isForwarded: true,
 
-              },
-
+        },
             });
+          }
+        }
+      }
+    }
+  } catch (error) {
+    console.error('Error:', error);
+  }
+};
 
+export default handleGreeting;
 
+            
 
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
