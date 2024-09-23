@@ -34,9 +34,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '*🔧 Finalizing operations...* 🏁',
             '',
             '⚠️ *Note:* All actions are for demonstration purposes only.',
-            '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
+            '⚠️*Reminder:* Ethical hacking is the only way to ensure security.',
             '',
-            '> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ☣*'
+             `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🥷🔥`
         ];
 
         for (const line of steps) {
