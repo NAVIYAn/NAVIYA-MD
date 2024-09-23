@@ -120,7 +120,7 @@ const isAdmins = isGroup ? groupAdmins.includes(sender) : false
 const isReact = m.message.reactionMessage ? true : false 
 const reply = (teks) => {
 conn.sendMessage(from, { text: teks }, { quoted: mek })
-
+}
 conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               let mime = '';
               let res = await axios.head(url)
