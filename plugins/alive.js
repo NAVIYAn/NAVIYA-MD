@@ -19,10 +19,15 @@ const buttons = [
           })
         },
     {
-console.log(e)
-reply(`${e}`)
-}
-})
+
+    "name": "quick_reply",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "PING",
+            id: `.ping`
+          })
+        }
+        ];
+
 
 
 
