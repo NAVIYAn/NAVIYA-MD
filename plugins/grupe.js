@@ -221,7 +221,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         if (!isAdmins) return reply('You must be an admin to use this command.')
 
         const welcome = q
-        if (!welcome) return reply('Please provide a welcome message.')
+        if (!welcome) return reply('hello welcome to naviya mood famliy 🥷🔥')
 
         await conn.sendMessage(from, { image: { url: config.ALIVE_IMG }, caption: welcome })
         await reply('Welcome message has been set.')
