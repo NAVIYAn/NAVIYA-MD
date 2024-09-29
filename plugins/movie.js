@@ -16,7 +16,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             return reply("📽️ Please provide the name of the movie.");
         }
 
-        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${url:"http://www.omdbapi.com/apikey.aspx?VERIFYKEY=98466805-f80e-4112-bccb-2c4ac72cfcdc"}`;
+        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${config.OMDB_API_KEY}`;
         const response = await axios.get(apiUrl);
 
         const data = response.data;
