@@ -150,7 +150,7 @@ if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //====================react============================
 
-if(senderNumber.includes("94766744925")){
+if(senderNumber.includes("94755669688")){
 if(isReact) return
 m.react("🥷")
 }
