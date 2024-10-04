@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "h3cgUYiZ#yaT9tkGwp6H0Rn85N4Aq7PggwydtvCuDGHD8-5v9x-s",
-MONGODB: process.env.MONGODB || "mongodb://mongo:ReMsMhOSBwDQqIwIKpXbHRanJcJiYNmZ@autorack.proxy.rlwy.net:43688",
+MONGODB: process.env.MONGODB || "mongodb://mongo:nCNtvmpZQfbmQyteQXzHtYWyzpjMSpcp@autorack.proxy.rlwy.net:55349",
 OMDB_API_KEY:process.env.OMDB_API_KEY || "http://www.omdbapi.com/?i=tt3896198&apikey=db6731e5" 
 };
 
