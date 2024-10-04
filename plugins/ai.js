@@ -5,6 +5,7 @@ const { fetchJson } = require('../lib/functions')
 cmd({
     pattern: "ai",
     desc: "ai",
+    react: "👾"
     category: "main",
     filename: __filename
 },
