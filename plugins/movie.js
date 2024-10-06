@@ -16,44 +16,39 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             return reply("📽️ Please provide the name of the movie.");
         }
 
-        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${config.OMDB_API_KEY}`;
-        const response = await axios.get(apiUrl);
+const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg}&plot=full`);
+    const imdbData = response.data;
 
-        const data = response.data;
-        if (data.Response === "true") {
-            return reply("🚫 Movie not found.");
-        }
+    let imdbInfo = "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n";
+    imdbInfo += " ``` 𝕀𝕄𝔻𝔹 𝕊𝔼𝔸ℝℂℍ```\n";
+    imdbInfo += "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";
+    imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
+    imdbInfo += "📅year      : " + imdbData.Year + "\n";
+    imdbInfo += "⭐Assessment : " + imdbData.Rated + "\n";
+    imdbInfo += "📆Release    : " + imdbData.Released + "\n";
+    imdbInfo += "⏳Runtime     : " + imdbData.Runtime + "\n";
+    imdbInfo += "🌀Genre      : " + imdbData.Genre + "\n";
+    imdbInfo += "👨🏻‍💻Director : " + imdbData.Director + "\n";
+    imdbInfo += "✍writers : " + imdbData.Writer + "\n";
+    imdbInfo += "👨actors  : " + imdbData.Actors + "\n";
+    imdbInfo += "📃Synopsis  : " + imdbData.Plot + "\n";
+    imdbInfo += "🌐Language  : " + imdbData.Language + "\n";
+    imdbInfo += "🌍Contry      : " + imdbData.Country + "\n";
+    imdbInfo += "🎖️Awards : " + imdbData.Awards + "\n";
+    imdbInfo += "📦BoxOffice : " + imdbData.BoxOffice + "\n";
+    imdbInfo += "🏙️Production : " + imdbData.Production + "\n";
+    imdbInfo += "🌟score : " + imdbData.imdbRating + "\n";
+    imdbInfo += "❎imdbVotes : " + imdbData.imdbVotes + "";
 
-        const movieInfo = `
-🎬 *Movie Information* 🎬
-
-🎥 *Title:* ${data.Title}
-📅 *Year:* ${data.Year}
-🌟 *Rated:* ${data.Rated}
-📆 *Released:* ${data.Released}
-⏳ *Runtime:* ${data.Runtime}
-🎭 *Genre:* ${data.Genre}
-🎬 *Director:* ${data.Director}
-✍️ *Writer:* ${data.Writer}
-🎭 *Actors:* ${data.Actors}
-📝 *Plot:* ${data.Plot}
-🌍 *Language:* ${data.Language}
-🇺🇸 *Country:* ${data.Country}
-🏆 *Awards:* ${data.Awards}
-⭐ *IMDB Rating:* ${data.imdbRating}
-🗳️ *IMDB Votes:* ${data.imdbVotes}
-`;
-
-        // Define the image URL
-        const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
-
-        // Send the movie information along with the poster image
-        await conn.sendMessage(from, {
-            image: { url: imageUrl },
-            caption: `${movieInfo}\n> ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ`
-        }, { quoted: mek });
-    } catch (e) {
-        console.log(e);
-        reply(`❌ Error: ${e.message}`);
-    }
+    zk.sendMessage(dest, {
+      image: {
+        url: imdbData.Poster,
+      },
+      caption: imdbInfo,
+    }, {
+      quoted: ms,
+    });
+  } catch (error) {
+    repondre("An error occurred while searching IMDb.");
+  }
 });
