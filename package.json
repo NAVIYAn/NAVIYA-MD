@@ -27,6 +27,9 @@
     "api-dylux":"1.8.5",
     "mongoose":"8.6.2",
     "google-tts-api":"2.0.2",
-    "wa-sticker-formatter":"4.4.4"
+    "wa-sticker-formatter":"4.4.4",
+    "node-record-lpcm16-ts":"1.0.0",
+    "whatsapp-web.js":"1.26.0"
+
   }
 }
