@@ -1,32 +1,33 @@
-const {readEnv} = require('../lib/database')
-const {cmd , commands} = require('../command')
+
+const { readEnv } = require('../lib/database');
+const { cmd, commands } = require('../command');
+const axios = require('axios'); // Import axios if needed for any API requests
 
 cmd({
     pattern: "menu",
-    desc: "get cmd list ",
+    desc: "get cmd list",
     category: "main",
     react: "⚡",
     filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-const config = await readEnv();
-let menu = {
-main: '',
-download:'',
-group: '',
-owner: '',
-convert: '',
-search: ''
-};
+}, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const config = await readEnv();
+        let menu = {
+            main: '',
+            download: '',
+            group: '',
+            owner: '',
+            convert: '',
+            search: ''
+        };
 
-for (let i = 0; i < commands.length; i++) {
-if (commands[i].pattern && !commands[i].dontAddCommandList) {
-menu[commands[i].category] += `.${config.PREFIX}${commands[i].pattern}\n`;
- }
-}
+        for (let i = 0; i < commands.length; i++) {
+            if (commands[i].pattern && !commands[i].dontAddCommandList) {
+                menu[commands[i].category] += `.${config.PREFIX}${commands[i].pattern}\n`;
+            }
+        }
 
-let madeMenu = `🥺❤️‍🩹 *Hello ${pushname}*
+        let madeMenu = `🥺❤️‍🩹 *Hello ${pushname}*
 
 ╭─────────────━┈⊷
 │👾 ʙᴏᴛ ɴᴀᴍᴇ: ɴᴀᴠɪʏᴀ-ᴍᴅ
@@ -55,7 +56,7 @@ let madeMenu = `🥺❤️‍🩹 *Hello ${pushname}*
 ┃✰ .𝙳𝚎𝚖𝚘𝚝𝚎
 ╰━━━━━━━━━━━━━━━⪼
 ╭━❮ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 ❯━╮
-┃✰ .𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
+┃✰ .𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚚
 ┃✰ .𝙼𝚎𝚍𝚒𝚊𝚏𝚒𝚛𝚎
 ┃✰ .𝙶𝚍𝚛𝚒𝚟𝚎
 ┃✰ .𝙸𝚗𝚜𝚝𝚊
@@ -68,19 +69,43 @@ let madeMenu = `🥺❤️‍🩹 *Hello ${pushname}*
 ╭━❮ 𝙼𝙰𝙸𝙽 ❯━╮
 ┃✰ .𝙿𝚒𝚗𝚐
 ┃✰ .𝙰𝚕𝚒𝚟𝚎
-┃✰ .𝙾𝚠𝚗𝚎𝚛
+┃✰ .𝙾𝚠𝚗𝚎ʳ
 ┃✰ .𝙼𝚎𝚗𝚞
-|✰ .𝚁𝚎𝚙𝚘
+┃✰ .𝚁𝚎𝚙𝚘
 ╰━━━━━━━━━━━━━━━⪼
 
 > ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🥷🔥
-`
-await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
+`;
+
+        // Create buttons
+        const buttons = [
+            { buttonId: 'command_list', buttonText: { displayText: 'Commands List' }, type: 1 },
+            { buttonId: 'help', buttonText: { displayText: 'Help' }, type: 1 }
+        ];
+
+        const buttonMessage = {
+            text: madeMenu,
+            footer: 'Select an option below:',
+            buttons: buttons,
+            headerType: 1 // Use header type 1 for button messages
+        };
+
+        await conn.sendMessage(from, buttonMessage, { quoted: mek }); // Send the button message
+
+    } catch (e) {
+        console.log(e);
+        reply(`Error: ${e}`);
+    }
+});
+
+//**Button Click Handling
+
+ //Buttons එක click කිරීම සඳහා කේතයක් එක් කළ යුතුයි. පහත දැක්වෙන කේතය button click handling එකට එකතු කරන්න:
 
 
-    
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
+conn.on('CB:action,,button_response', async (json) => {
+    const buttonId = json[2].buttonId;
+
+    if (buttonId === 'command_list') {
+        // Logic to show the commands list again
+        await conn.send
