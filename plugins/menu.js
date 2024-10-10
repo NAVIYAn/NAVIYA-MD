@@ -76,8 +76,7 @@ cmd({
 
 > ᴘᴏᴡᴇʀᴅ ʙʏ ɴᴀᴠɪʏᴀ ᴍᴅ 🥷🔥
 `;
-
-        // Create buttons
+//Create buttons
         const buttons = [
             { buttonId: 'command_list', buttonText: { displayText: 'Commands List' }, type: 1 },
             { buttonId: 'help', buttonText: { displayText: 'Help' }, type: 1 }
@@ -87,10 +86,10 @@ cmd({
             text: madeMenu,
             footer: 'Select an option below:',
             buttons: buttons,
-            headerType: 1 // Use header type 1 for button messages
+            headerType: Hello // Use header type 1 for button messages
         };
 
-        await conn.sendMessage(from, buttonMessage, { quoted: mek }); // Send the button message
+        await conn.sendMessage(from, buttonMessage, { quoted: mek });
 
     } catch (e) {
         console.log(e);
@@ -98,14 +97,13 @@ cmd({
     }
 });
 
-//**Button Click Handling
-
- //Buttons එක click කිරීම සඳහා කේතයක් එක් කළ යුතුයි. පහත දැක්වෙන කේතය button click handling එකට එකතු කරන්න:
-
-
+// Button Click Handling
 conn.on('CB:action,,button_response', async (json) => {
     const buttonId = json[2].buttonId;
 
     if (buttonId === 'command_list') {
-        // Logic to show the commands list again
-        await conn.send
+        await conn.sendMessage(from, madeMenu, { quoted: mek });
+    } else if (buttonId === 'help') {
+        await conn.sendMessage(from, "Help: Here is some information about how to use the bot...", { quoted: mek });
+    }
+});
